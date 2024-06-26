@@ -11,6 +11,11 @@ docker-compose up -d --build
 cd src // and edit code
 `
 
+# Run web
+`
+http://localhost:8003
+`
+
 
 
 
