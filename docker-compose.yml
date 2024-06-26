@@ -1,0 +1,8 @@
+services:
+  legacy-php:
+    image: khachonsak/apache-php836:1.0
+    volumes:
+     - ./src:/var/www/html
+     #- ./php:/usr/local/etc/php
+    ports:
+     - "8003:80"
